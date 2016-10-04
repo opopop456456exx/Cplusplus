@@ -1,0 +1,16 @@
+﻿生成启动时间为 2016/10/3 22:28:58。
+     1>项目“F:\2017Robocon\Cplusplus\10_3\10_3\10_3.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\10_3.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt 10_3.cpp
+         10_3.cpp
+     1>f:\2017robocon\镭神ls01c\镭神ls01 相关示例程序及驱动v1.1   1度\镭神ls01 相关示例程序及驱动\lslidar demo windows 源程序vs2010\driver function\lslidardriver.h(5): error C2079: “lsLidarDriver”使用未定义的 class“AFX_EXT_CLASS”
+     1>f:\2017robocon\镭神ls01c\镭神ls01 相关示例程序及驱动v1.1   1度\镭神ls01 相关示例程序及驱动\lslidar demo windows 源程序vs2010\driver function\lslidardriver.h(5): error C2143: 语法错误: 缺少“;”(在“:”的前面)
+     1>f:\2017robocon\镭神ls01c\镭神ls01 相关示例程序及驱动v1.1   1度\镭神ls01 相关示例程序及驱动\lslidar demo windows 源程序vs2010\driver function\lslidardriver.h(5): error C2059: 语法错误:“:”
+     1>f:\2017robocon\镭神ls01c\镭神ls01 相关示例程序及驱动v1.1   1度\镭神ls01 相关示例程序及驱动\lslidar demo windows 源程序vs2010\driver function\lslidardriver.h(5): error C2059: 语法错误:“public”
+     1>f:\2017robocon\镭神ls01c\镭神ls01 相关示例程序及驱动v1.1   1度\镭神ls01 相关示例程序及驱动\lslidar demo windows 源程序vs2010\driver function\lslidardriver.h(6): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+     1>f:\2017robocon\镭神ls01c\镭神ls01 相关示例程序及驱动v1.1   1度\镭神ls01 相关示例程序及驱动\lslidar demo windows 源程序vs2010\driver function\lslidardriver.h(6): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>已完成生成项目“F:\2017Robocon\Cplusplus\10_3\10_3\10_3.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.15

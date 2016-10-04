@@ -1,32 +1,60 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-int valplus(int a,int b);
-
-
-int main(void)
+class book
 {
-	int sum;
-	int number1=10;
-	int number2 = 20;
-	cout << number1 << " " << number2 << endl;
-	sum=valplus(number1, number2);
-	cout << number1 << " " << number2 << endl;
-	cout << sum<<endl;
-	
-//	cin >> number1;
+public:
+	void setprice(double a);
+	double getprice();
+	void settitle(char* a);
+	char * gettitle();
+private:
+	double price;
+	char * title;
+};
 
-	return 0;
-	
+void book::setprice(double a)
+{
+	price = a;
 }
 
-
-int valplus(int a, int b)
+double book::getprice()
 {
-	int temp;
-	temp = a;
-	a = b;
-	b = temp;
-	
-	return a+b;
+	return price;
+}
+
+void book::settitle(char* a)
+{
+	title = a;
+}
+
+char * book::gettitle()
+{
+	return title;
+}
+
+void display(book & b)
+{
+	cout << "The price of " << b.gettitle() << " is $" << b.getprice() << endl;
+}
+
+book & init(char *t, double p)
+{
+	static book b;
+	b.settitle(t);
+	b.setprice(p);
+	return b;
+}
+
+int main()
+{
+	book Alice;
+	Alice.settitle("Alice in Wonderland");
+	Alice.setprice(29.9);
+	display(Alice);
+	book Harry;
+	Harry = init("Harry Potter", 49.9);
+	display(Harry);
+
+	return 0;
 }
